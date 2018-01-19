@@ -3,7 +3,6 @@
  *   per move-step of (xStep, yStep).
  */
 public class Ball {
-   public static void main(String[] args) {
    // The private instance variables
    private double x, y, xStep, yStep;
 
@@ -74,5 +73,4 @@ public class Ball {
       y += yStep;
       return this;
    }
-}
 }
